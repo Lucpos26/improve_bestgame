@@ -1,7 +1,8 @@
 import pygame
 
-from game import Game
+from game import *
 from config import WIDTH, HEIGHT
+from puntuación import *
 
 # Inicializar Pygame
 pygame.init()
@@ -11,4 +12,6 @@ pygame.display.set_caption("Speedrunner")
 
 if __name__ == "__main__":
     game = Game()
-    game.run()
+    game.run() 
+
+
